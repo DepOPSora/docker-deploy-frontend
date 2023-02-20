@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  frontend:
+    image: gigasora/234-deploylab-frontend-production:latest
+    ports:
+      - "9999:80"
